@@ -1,0 +1,17 @@
+process for first go 
+Create a database and set DB_Database in .env file
+After that run this command on first
+
+php artisan migrate
+
+
+
+Other useful and basic commands 
+
+composer create-project laravel/laravel:^9.x your-project-name   /// To create a new laravel project
+php artisan server  //// to run the server
+php artisan make:controller -r categorycontroller  /// TO create the controller
+php artisan make:migration create_category_table  /// TO make the migration
+
+php artisan migrate    // TO migrate the data in tables
+
